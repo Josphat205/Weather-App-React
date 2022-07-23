@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.body-div{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+.body-div:before{
+    content: '';
+background: url('../assets/weather.jpg') no-repeat center center/cover;
+position:absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: -1;
+object-fit: cover;
+}
+
+.contain{
+    width: 80%;
+    margin: 30px auto;
+}

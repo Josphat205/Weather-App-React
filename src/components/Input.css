@@ -1,0 +1,17 @@
+.input-div{
+ width: 100%;
+ text-align: center;
+}
+.input{
+    margin: 30px 0;
+    padding: 12px 40px;
+    background-color: rgba(255,255,255,1);
+    border: #fff;
+    border-radius: 20px;
+    color: #000;
+    outline: none;
+    font-size: 17px;
+}
+::placeholder{
+    color: #000;
+}
