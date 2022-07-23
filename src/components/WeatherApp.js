@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from "../redux/weather/getWeather";
 import Input from "./Input";
+import Logo from "./Logo";
 import "./WeatherApp.css";
 import Location from "./Location";
 function WeatherApp() {
@@ -13,7 +14,8 @@ function WeatherApp() {
   return (
     <div className="body-div">
       <Input />
-      <Location data={datas} />;
+      <Location data={datas} />
+      <Logo/>
     </div>
   );
 }
