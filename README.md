@@ -12,7 +12,7 @@ weather app is a web application that shows the temperature, pressure, humidity 
 
 ## Live Demo
 
-![Weather-App](https://weather-app-200.herokuapp.com/)
+[Weather-App](https://weather-app-200.herokuapp.com/)
 
 
 ## Run Locally
